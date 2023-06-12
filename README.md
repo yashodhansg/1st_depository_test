@@ -22,7 +22,7 @@
 - # Models built :
 - Total 3 models were built to solve the problem. Each model consists of 15 weight layers. However, 1st model did not have any drop-out layer, normalization layer, augmentation strategy. Also, it was trained on original data which had significant class imbalance. 2nd model had drop-out layers incoroporated. Also, augmentation strategy of randomflip and random rotation were used. It was also trained on original data which had significant class imbalance. 3rd model also had batch normalization incoporated in addition to drop-out layer. Also, class imbalance was removed by adding 500 images of each class using augmentor package.  
 - # Comparison of Models :
-- 1st and 2nd model had very low training as well as validation accuracy indicating underfitting. However, 3rd model gave satisfactory performance with training accuracy of more than 85%. Also, for 3rd model validation accuracy closely following training accuracy indicating not much overfitting. 
+- 1st and 2nd model had very low training as well as validation accuracy indicating underfitting. However, 3rd model gave satisfactory performance with training accuracy of more than 85%. Also, for 3rd model validation accuracy closely followed training accuracy indicating not much overfitting. 
 - # Possible reason for difference in performance of model :  
 - The third model was trained on data where classes were balanced by adding 500 images to each class by using augmentor package. Also, batch normalization was used. Either of the two or both of these factors seem to have contributed to significant improvement in model performance. 
 
