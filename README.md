@@ -1,4 +1,4 @@
-# Multiclass classification model using a custom convolutional neural network in TensorFlow to accurately detect Melanoma.
+# Multiclass classification model development using a custom convolutional neural network in TensorFlow to accurately detect Melanoma.
 
 
 ## Table of Contents
