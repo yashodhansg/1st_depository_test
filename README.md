@@ -24,7 +24,7 @@
 - # Comparison of Models :
 - 1st and 2nd model had very low training as well as validation accuracy indicating underfitting. However, 3rd model gave satisfactory performance with training accuracy of more than 85%. Also, for 3rd model validation accuracy closely followed training accuracy indicating not much overfitting. 
 - # Possible reason for difference in performance of model :  
-- The third model was trained on data where classes were balanced by adding 500 images to each class by using augmentor package. Also, batch normalization was used. Either of the two or both of these factors seem to have contributed to significant improvement in model performance. 
+- The third model was trained on data where classes were balanced by adding 500 images to each class by using augmentor package. Also, batch normalization was used. Either of the two or both of these factors seem to have contributed to significant improvement in model performance compared to 1st and 2nd model. 
 
 
 ## Technologies Used
