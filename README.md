@@ -1,9 +1,4 @@
-# 1st project test
-melanoma detection file will be uploaded
-
-
-
-> Outline a brief description of your project.
+# Multiclass classification model using a custom convolutional neural network in TensorFlow to accurately detect Melanoma.
 
 
 ## Table of Contents
