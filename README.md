@@ -32,7 +32,7 @@
 - keras     version 2.12.0
 - pathlib   version 1.0.1
 - tensorflow version 2.12.0
-- library - version 3.0
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
